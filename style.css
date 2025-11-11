@@ -1,8 +1,32 @@
 
+div
+{
+    background-color: #fffbfb;
+    padding: 32px;
+}
+
 h1
 {
     color: #A10000;
     font-family: Open-Sans, sans-serif;
     font-weight: bold;
     font-size: 28px;
+}
+
+h2
+{
+    color: #000000;
+    font-family: Open-Sans, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    font-style: bold;
+}
+
+li
+{
+    font-family: Open-Sans, sans-serif;
+    font-style: regular;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
 }
