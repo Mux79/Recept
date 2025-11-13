@@ -22,7 +22,8 @@ h1
 {
     color: #A10000;
     font-family: Open-Sans, sans-serif;
-    font-weight: bold;
+    font-weight: 700;
+    font-style: bold;
     font-size: 28px;
 }
 
@@ -52,4 +53,33 @@ ul
 ol
 {
     margin-left: -17px;
+}
+
+td
+{
+    padding: 10px;
+}
+
+#serv1-img
+{
+    background-image: url(images/img2.jpg);
+    width: 580px;
+    height: 467px;
+    min-width: 300px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#serv2-img
+{
+    background-image: url(images/img3.jpg);
+    width: 580px;
+    height: 467px;
+    min-width: 300px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
 }
