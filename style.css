@@ -83,3 +83,38 @@ td
     background-repeat: no-repeat;
     position: relative;
 }
+
+/* * {
+    box-sizing: border-box;
+}*/
+.column {
+    float: left;
+    width: 50%;
+    padding: 0px;   
+    gap: 200px;
+}
+
+.left {
+    width: 50%;
+    margin: 0, 0, 0, -250px;
+}
+.right {
+    margin: 0, 0, 0, 250px;
+    width: 50%;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+@media screen and (max-width: 800px) {
+    .column {
+        width: 100%;
+    }
+    #pancake-img
+    {
+        width: 100% ;
+    }
+}
